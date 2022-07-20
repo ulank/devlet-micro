@@ -1,0 +1,27 @@
+server:
+  port: 8765
+
+spring:
+  application:
+    name: devlet-api
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          lower-case-service-id: true
+          enabled: true
+
+#  security:
+#          oauth2:
+#            client:
+#              registration:
+#                google:
+#                  client-id: google-client-id
+#                  client-secret: google-client-secret
+
+
+eureka:
+  client:
+    service-url.defaultZone: http://localhost:8761/eureka
+
+
