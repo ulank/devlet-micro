@@ -1,6 +1,6 @@
 rootProject.name = 'devlet-micro'
 
 includeBuild('devlet-server')
-includeBuild('devlet-api')
+includeBuild('devlet-gateway')
 includeBuild('devlet-account')
 includeBuild('devlet-catalog')

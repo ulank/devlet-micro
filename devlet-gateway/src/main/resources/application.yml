@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: devlet-api
+    name: devlet-gateway
   cloud:
     gateway:
       discovery:
